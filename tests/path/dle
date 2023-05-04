@@ -1,0 +1,4 @@
+from re import findall
+item="10 years"
+match=findall(r"\d", item)
+print(match)
